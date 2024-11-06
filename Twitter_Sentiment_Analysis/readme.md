@@ -33,7 +33,16 @@ Vemos que antes de limpiar el texto las palabras mas comuness son aticulos o pal
 
 Ahora vamos a analizar lo que vamos a quiitar en la limpieza del texto de los tweets.
 
-Analizamos palabras comunes de los tweets como los # @ y links, estos elemenos hay que eliminarlos ya que no influyen en el signitifcado del txto
+Analizamos palabras comunes de los tweets como los # @ y links, estos elemenos hay que eliminarlos ya que no influyen en el signitifcado del texto:
+
+HASHTAG, ARROBAS and URLs
+
+![image](https://github.com/user-attachments/assets/4541874b-418a-4378-a87f-5b8bc63d07a1)
+
+
+EMOJIS y lista de pabras positivas y negativas
+
+Aquellas palabras que ya sabemos de antemano que son positivas o negativas, las vamos a sustituor por una apalabra clave según su tipo, lo mismo haremos ocn los emoticnos,q ue aumnque no hya muchos los camos a incluir
 
 
 
