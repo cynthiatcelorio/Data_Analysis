@@ -16,7 +16,7 @@ The sentiment column can take two possible values:
 ![image](https://github.com/user-attachments/assets/8c8a15a0-d438-4f37-a058-a9e4662bc58f)
 
 
-## Análisis y limpieza
+## Analysis
 
 First of all, the two columns mentioned above ("ItemID" and "SentimentSource") will be eliminated because they are not very relevant.
 
@@ -40,14 +40,38 @@ Now let's draw a histogram to see the most frequent words in tweets. As we can s
 ![image](https://github.com/user-attachments/assets/1c893854-678f-4e71-955a-68e3cdab3142)
 
 
+## Cleaning
+
+Now, applying the above mentioned, we are going to proceed to the cleaning of the text. To do this we will do the following:
+
+- Use the “nltk” library to import the “stopwords” module which eliminates irrelevant words such as articles, pronouns...
+- All non-alphabetic characters will be removed and then the text will be normalized to lower case.
+- All hashtags, mentions (including their content) and URLs will be removed from the text. 
+- Common words in negative and positive tweets that have no relevant meaning will be removed. For example “today”. These words were obtained in a later analysis of the most common words in negative and positive tweets, but are not shown in this notebook to make it more readable.
+
+![image](https://github.com/user-attachments/assets/8e25bf2c-e881-4ae7-8a52-5622bd5b22d6)
+
+After cleaning, we visualize how the data of the dataset is now:
+
+FOTO DATOS
+
+Now let's visualize the most common words in positive tweets and negative tweets. You can see how the words are related to these feelings
+
+### Negative tweets
+
+FOTO
+
+### Positive tweets
+
+FOTO
 
 
+[[[[]            METER LO DE LAS CARAS Y LO DE LA LISTA DE PALABRAS]]]]]
 
-
-
-
-
-
+[ ELIMINAR LOS DATOS VACIOS Y ESAS COSAS, REVISAR EL OTRO NOTEBOOK]
+[VER SI HAY DATOS DUPLIVADOS. PONER AL PRINCIPIO DEL DATASET]
+[METER LA LEMATIZATION]
+[METER E INVESTIGAR LO DEL &amp %lt gt]
 
 
 
