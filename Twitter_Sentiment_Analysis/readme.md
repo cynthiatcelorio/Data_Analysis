@@ -73,10 +73,32 @@ In this histogram the same code is used as in the one for the negative words.
 
 
 
+After the cleaning we check if there is any empty or null value. There are 687.
+
+![image](https://github.com/user-attachments/assets/423fb0d2-fecd-4017-840f-0dd9475e5012)
+
+These empty rows are removed.
+
+![image](https://github.com/user-attachments/assets/60731af9-4a3e-49d7-ab12-38a129d7ee83)
+
+
+# Training 
+
+Now let's create the bag of words that will be used to train the model.
+
+![image](https://github.com/user-attachments/assets/c2331f92-6a77-4a33-8c75-b9ab71b7b864)
+
+The model is now going to be trained using Random Forest. 20 percent of the data will be used for the test.
+
+![image](https://github.com/user-attachments/assets/5b97dd0a-aa17-414e-ae98-9b9a078da01a)
+
+[TEXTO]
+
+[MATRIZ]
+
+
 [[[[]            METER LO DE LAS CARAS Y LO DE LA LISTA DE PALABRAS]]]]]
 
-[ ELIMINAR LOS DATOS VACIOS Y ESAS COSAS, REVISAR EL OTRO NOTEBOOK]
-[VER SI HAY DATOS DUPLIVADOS. PONER AL PRINCIPIO DEL DATASET]
 [METER LA LEMATIZATION]
 [METER E INVESTIGAR LO DEL &amp %lt gt]
 
