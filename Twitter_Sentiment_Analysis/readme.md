@@ -53,17 +53,24 @@ Now, applying the above mentioned, we are going to proceed to the cleaning of th
 
 After cleaning, we visualize how the data of the dataset is now:
 
-FOTO DATOS
+![image](https://github.com/user-attachments/assets/df59d5e6-4722-4db5-92b6-a8fd955c25bc)
 
 Now let's visualize the most common words in positive tweets and negative tweets. You can see how the words are related to these feelings
 
 ### Negative tweets
 
-FOTO
+![image](https://github.com/user-attachments/assets/fc0d629e-a83b-4973-a801-cdbc051c3aa1)
+
+Result:
+
+![image](https://github.com/user-attachments/assets/c61f66a6-5a85-48ae-8a72-1155abd0fa53)
 
 ### Positive tweets
 
-FOTO
+In this histogram the same code is used as in the one for the negative words.
+
+![image](https://github.com/user-attachments/assets/c50ab6dc-2dee-4683-8b77-4d41bfd159d1)
+
 
 
 [[[[]            METER LO DE LAS CARAS Y LO DE LA LISTA DE PALABRAS]]]]]
