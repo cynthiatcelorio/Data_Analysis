@@ -92,16 +92,8 @@ The model is now going to be trained using Random Forest. 20 percent of the data
 
 ![image](https://github.com/user-attachments/assets/5b97dd0a-aa17-414e-ae98-9b9a078da01a)
 
-Once the prediction has been made, we will paint a confusion matrix to evaluate the result. We can see that there are 231120 hits in a set of 315585 data, therefore the hit percentage is 73.23%
+Once the prediction has been made, we will paint a confusion matrix to evaluate the result. We can see that there are 231120 hits in a set of 315585 data, therefore the success percentage is 73.23%
 
 ![image](https://github.com/user-attachments/assets/f6fadc37-b1c7-4401-aa43-f74aaeb52061)
 
 ![image](https://github.com/user-attachments/assets/3fde7889-ff7e-431e-86bc-5325ebcf6d16)
-
-
-[[[[]            METER LO DE LAS CARAS Y LO DE LA LISTA DE PALABRAS]]]]]
-
-[METER LA LEMATIZATION]
-[METER E INVESTIGAR LO DEL &amp %lt gt]
-
-# Conclusion final
