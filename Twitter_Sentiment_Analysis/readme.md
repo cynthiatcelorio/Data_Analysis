@@ -82,7 +82,7 @@ These empty rows are removed.
 ![image](https://github.com/user-attachments/assets/60731af9-4a3e-49d7-ab12-38a129d7ee83)
 
 
-# Training 
+## Training 
 
 Now let's create the bag of words that will be used to train the model.
 
